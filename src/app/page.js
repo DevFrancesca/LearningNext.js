@@ -1,7 +1,11 @@
+import Features from "../components/Features"
+import Heroes from "../components/Heroes"
+
 export default function Home() {
   return (
     <main >
-     <h1>Hello! Welcome to my Home</h1>
+      <Heroes/>
+       <Features/>  
     </main>
   );
 }
